@@ -1,0 +1,127 @@
+
+/* Admin Page */ 
+
+.container{ 
+    font:family: sans-serif; 
+    display:flex; 
+    flex-direction: column; 
+    align-items: center; 
+    color: #CF9FFF; 
+    font-size: smaller; 
+}
+
+
+.row{ 
+    background-color: aqua;
+    display:flex; 
+    width: 100%; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+.col{ 
+    border: 1px solid black;
+    flex-basis: 20rem; 
+    margin: 2rem;
+    text-align:center;  
+    padding:  1.5rem;   
+    border-radius: 1rem;  
+    box-shadow: 6px 6px 8px pink; 
+}
+
+a{ 
+    text-decoration: none; 
+    font-weight: bold; 
+    color: black;  
+}
+
+a:hover{ 
+    color:rgb(255, 108, 177); 
+}
+
+
+/* Add list Catagory*/ 
+
+#addCategoryForm{ 
+    background-color: aqua;
+}
+
+h1{ 
+    text-align: center; 
+    color: rgb(223, 104, 223); 
+
+}
+td, th{ 
+    background-color: aqua;
+    color: blueviolet; 
+
+}
+
+th{ 
+    text-align:left;
+}
+
+form{ 
+    box-shadow: 6px 6px 8px pink; 
+    border-radius: 1rem; 
+    padding: 3rem; 
+}
+
+button{ 
+    color:blueviolet; 
+    background-color: greenyellow; 
+    border: none; 
+    box-shadow: 6px 6px 8px pink; 
+    border-radius: .7rem; 
+    padding: .7rem; 
+    margin-top: 2rem; 
+}
+
+
+/* Add Food Cuisine*/ 
+
+#addCuisineForm{ 
+    background-color: aqua;
+}
+
+/* Add Food Item*/ 
+ 
+#addFoodItemForm{ 
+    background-color: aqua;
+}
+
+/* Add Resturant*/ 
+
+#addRestaurantForm{ 
+    background-color: aqua;
+}
+
+
+
+/* Lists Catagories,Lists Cuisines,  Lists Food Items, Lists Restaurants*/  
+
+.table{ 
+    background-color: aqua;
+    box-shadow: 6px 6px 8px pink;
+    padding: 2rem; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
